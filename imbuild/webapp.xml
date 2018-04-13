@@ -90,17 +90,17 @@
        <echo message="Minifying javascript and css files"/>
  
        <!-- invoke compressor -->
-       <yui-compressor warn="false" charset="UTF-8" jsSuffix="-COMPRESSED.js" cssSuffix="-min.css" fromdir="${build.dir}" todir="${build.dir}">
-           <include name="webapp/js/*.js" />
-           <exclude name="webapp/js/*min.js"/>
-       </yui-compressor>
+      <!--  <yui-compressor warn="false" charset="UTF-8" jsSuffix="-COMPRESSED.js" cssSuffix="-min.css" fromdir="${build.dir}" todir="${build.dir}"> -->
+      <!--      <include name="webapp/js/*.js" /> -->
+      <!--      <exclude name="webapp/js/*min.js"/> -->
+      <!--  </yui-compressor> -->
 
-      <apply executable="mv">
-        <srcfile/>
-        <targetfile/>
-        <fileset dir="${build.dir}/webapp/js" includes="*-COMPRESSED.js"/>
-        <mapper type="glob" from="*-COMPRESSED.js" to="${build.dir}/webapp/js/*.js"/>
-      </apply>
+      <!-- <apply executable="mv"> -->
+      <!--   <srcfile/> -->
+      <!--   <targetfile/> -->
+      <!--   <fileset dir="${build.dir}/webapp/js" includes="*-COMPRESSED.js"/> -->
+      <!--   <mapper type="glob" from="*-COMPRESSED.js" to="${build.dir}/webapp/js/*.js"/> -->
+      <!-- </apply> -->
  
    </target>
  
