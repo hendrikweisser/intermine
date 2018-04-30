@@ -80,7 +80,7 @@
       <property name="src.data.file" location="/home/hendrik.weisser/Data/InterMine/Sources/metabolic/mouse-pheno/current/MPheno_OBO.obo" />
     </source>
     <source name="go" type="go" dump="true">
-      <property name="src.data.file" location="/home/hendrik.weisser/Data/InterMine/Sources/go-annotation/current/go.obo" />
+      <property name="src.data.file" location="/home/hendrik.weisser/Data/InterMine/Sources/go-annotation/current/go-basic.obo" />
     </source>
     <source name="go-annotation" type="go-annotation">
       <property name="src.data.dir" location="/home/hendrik.weisser/Data/InterMine/Sources/go-annotation/current/human" />
